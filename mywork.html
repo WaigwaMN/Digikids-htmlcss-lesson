@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<head>
+    <title>my work</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            text-align: center;
+        }
+        img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+        }
+        body {
+            background-color: slategrey;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+        main {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1.5rem;
+            padding: 1rem;
+        }
+        h1 {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: darkslateblue;
+            font: bolder;
+            text-decoration: none;
+        }
+         .navigation ul{
+        list-style-type: none; 
+        background-color: rgb(22, 147, 201);
+        padding: 0px;
+        margin: 0px;
+        overflow: hidden;
+        border-top: 3px;
+        border-style: solid;
+    }
+    .navigation a{
+        color: white;
+        text-decoration: none;
+        padding: 15px;
+        display: block;
+        text-align: center;
+    }    
+    .navigation a:hover{
+        background-color: aqua;
+    }
+    .navigation li{
+        float: left;
+    }
+    .card {
+        scroll-margin-top: 8rem;
+        width: min(100%, 350px);
+        background-color:rgb(241, 239, 239);
+        border: 2px solid;
+        border-color: black;
+        border-radius: 25 px;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-style: italic;
+    }
+    .card figure{
+        display: flex;
+        flex-flow: column;
+    }
+    .card img {
+        border: 5px double, rgb(240, 229, 229);
+        border-radius: 50%;
+    }
+    .card figcaption {
+        font-weight: bolder;
+        font-size: 2rem;
+        margin: 1rem;
+        text-align: center;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>My Work</h2>
+    </header>
+    <nav class="navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutme.html">About me</a></li>
+            <li><a href="mywork.html">My work</a></li>
+            <li><a href="contacts.html">Contacts</a></li>
+            <li><a href="signin.html">Sign in</a></li>
+        </ul>
+    </nav>
+    <main>
+    <h1>You can have a look at some of my work below</h1>
+    <article id="website1" class="card">
+        <figure>
+            <img src="website1.jpg" alt="website1" width="499" height="499">
+            <figcaption>website 1</figcaption>
+        </figure>
+        <p><q>This is the first website I designed</q></p>
+    </article>
+    <article id="website2" class="card">
+        <figure>
+            <img src="website2.jpg" alt="website2" width="499" height="499">
+            <figcaption>website 2</figcaption>
+        </figure>
+        <p><q>This is the second website I designed</q></p>
+    </article>
+    <article id="website3" class="card">
+        <figure>
+            <img src="website3.jpg" alt="website3" width="499" height="499">
+            <figcaption>Website 3</figcaption>
+        </figure>
+        <p><q>This is the third website I designed</q></p>
+    </article>
+    </main>
+</body>
+</html>
