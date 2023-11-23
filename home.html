@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Youtube Home</title>
+        <style>
+            body{
+                font-family: arial;
+            } 
+            p {
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+            .searchbar {
+              display: block;
+              margin-bottom: 5px;  
+            }
+            .profilepicture{
+                width: 40px;
+                height: 40px;
+                border-radius:70px;
+            }
+            .thumbnail1 {
+               width: 100%; 
+            }
+            .thumbnail2 {
+                width: 100%;
+                border: none;
+            }
+            .thumbnail3 {
+                width: 100%;
+            }
+            .videopreview{
+                width: 299px;
+                vertical-align: top;
+                display:inline-block;
+                margin-right:5px;
+                margin-bottom:9px ;
+            }
+            .videotitle{
+                margin-top: 0;
+                font-size: 14px;
+                font-weight: 300;
+                vertical-align: top;
+                margin-right: 15px;
+                line-height: 15px;
+                margin-bottom: 6px;
+            }
+            .videoauthor{
+                margin: none;
+            }
+            .videostats{
+                margin-top: 0px;
+            }
+            .channelpicture{
+                display: inline-block;
+                width: 50px;
+                vertical-align: top;
+            }
+            .videoinfo{
+                display: inline-block;
+                width: 200px;
+            }
+            .thumbnailrow {
+                margin-bottom: 10px;
+            }
+            .videoauthor, .videostats {
+                font-size: 17px;
+                color: rgb(95, 95, 95);
+            }
+            .videoauthor {
+                margin-bottom:4px ; 
+            }
+            .videolink {
+                text-decoration: none;
+                color: black; 
+            }
+            .videolink {
+                text-decoration: none;
+                color: black; 
+            }
+            .footer1, .footer2 {
+                text-align: center; 
+            }
+            .header{
+                height: 55px;
+                display: flex;
+                flex-direction: row;
+            }
+            .leftsection{
+                display: flex;
+                flex-direction: row;
+                width: 200px;
+                align-items: center;
+            }
+            .middlesection{
+                display: flex;
+                flex-direction: row;
+                flex: 1;
+                margin-left: 70px;
+                margin-right: 35px;
+                max-width: 400px;
+                align-items: center;
+            }
+            .rightsection{
+                display: flex;
+                flex-direction: row;
+                background-color:yellow;
+                width: 150px;
+            }
+            .menuicon {
+                height: 35px;
+                margin-right: 15px;
+                margin-left: 15px;
+            }
+            .youtubeicon {
+                height: 35px;
+            }
+            .searchbutton {
+                height: 35px;
+                margin-right: 15px;
+                margin-left: 15px;
+            }
+            .micbutton {
+                height: 35px;
+                width:auto;
+                border-radius:50px ;
+            }
+            .searchicon {
+                height: 25px;
+            }
+            .micicon {
+                height: 25px;
+            }
+        </style>
+    </head>
+    <body>
+    <div class="header">
+        <div class="leftsection">
+            <img class="menuicon" src="icons\7124209_menu_icon.png">
+            <img class="youtubeicon" src="icons\4375133_logo_youtube_icon.png">
+        </div>
+        <div class="middlesection">
+         <input class="searchbar" type="text" placeholder="Search">
+         <button class="searchbutton">
+            <img class="searchicon" src="icons/211817_search_strong_icon.png">
+         </button>
+         <button class="micbutton">
+            <img class="micicon" src="icons/352543_mic_icon.png">
+         </button>
+        </div>
+        <div class="rightsection">
+            <p>right</p>
+        </div>
+    </div>
+    <div class="videopreview">
+            <div class="thumbnailrow">
+                <a href="index.html"><img class="thumbnail1" src="thumbnails/thumbnail1.jpg"></a>
+            </div>
+        <div class="channelpicture">
+         <img class="profilepicture" src="thumbnails/thumbnail1.jpg">
+        </div>
+        <div class="videoinfo">
+        <a class="videolink" href="index.html"></b><p class="videotitle"><b>Welcome to Youtube, a wholesome look at Youtube</b></p></a>
+        <p class="videoauthor">Martin Waigwa &#10003</p>
+        <p class="videostats">1M views &#183 1 month ago</p>
+        </div>
+    </div>
+
+    <div class="videopreview">
+     <div class="thumbnailrow">
+        <img class="thumbnail2" src="thumbnails/website1.jpg">
+    </div>
+    <div class="channelpicture"><img class="profilepicture" src="thumbnails/website2.jpg">
+    </div>
+    <div class="videoinfo">
+    <p class="videotitle"><b>Selling on the internet</b></p>
+    <p class="videoauthor">Digikids</p>
+    <p class="videostats">300k views  &#183 6 months ago </p>
+      </div>
+    </div>
+
+    <div class="videopreview">
+        <div class="thumbnailrow">
+        <img class="thumbnail3" src="thumbnails/website2.jpg">
+        </div>
+        <div class="channelpicture"><img class="profilepicture" src="thumbnails/website3.jpg"></div>
+        <div class="videoinfo">
+        <p class="videotitle"><b>Learn graphic design for free</b></p>
+        <p class="videoauthor">Graphic Pro</p>
+        <p class="videostats">350k views  &#183 6 months ago </p>
+        </div>
+    </div>
+    <footer>
+        <p class="footer1"> Youtube</p>
+        <p class="footer2"> &#169 All rights reserved</p>
+    </footer>
+    </body>
+</html>
